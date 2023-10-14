@@ -1,0 +1,46 @@
+.body {
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+div.navheadercap {
+  color: #87ceeb;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #87ceeb;
+}
+
+ul.menu > li a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.footer {
+  height: 5vh;
+  background-color: #87ceeb;
+}
+.container-hash {
+  text-align: justify;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+  padding: 10px;
+  font-family: system-ui;
+  max-width: 750px;
+  margin: auto;
+}
+.textcenter {
+  text-align: center;
+}
