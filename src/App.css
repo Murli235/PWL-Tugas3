@@ -3,9 +3,20 @@
   background-color: #f2f2f2;
 }
 div.navheadercap {
-  color: #87ceeb;
+  color: #094861;
+  font-weight: bold;
+  background-color: #f2f2f2;
 }
 
+.left {
+  display: flex;
+  align-items: center;
+}
+.image {
+  height: 300px;
+  width: 500px;
+  margin-right: 10px;
+}
 ul.menu {
   list-style-type: none;
   margin: 0;
@@ -27,18 +38,18 @@ ul.menu > li a {
   justify-content: space-evenly;
   font-weight: bold;
 }
-
 .footer {
-  height: 5vh;
+  height: 8vh;
   background-color: #87ceeb;
+  color: white;
+  text-align: center;
+  font-size: 25px;
 }
 .container-hash {
   text-align: justify;
   background-color: #f6f6f6;
   border-radius: 30px;
-  padding: 10px;
   font-family: system-ui;
-  max-width: 750px;
   margin: auto;
 }
 .textcenter {
